@@ -91,14 +91,6 @@ The Streamlit web app:
 ---<img width="1881" height="845" alt="Screenshot 2025-08-11 120958" src="https://github.com/user-attachments/assets/31300376-4c9b-4bfa-9cb4-a310d9632a7c" />
 <img width="1884" height="808" alt="Screenshot 2025-08-11 121014" src="https://github.com/user-attachments/assets/b8013cc6-867d-49ea-a01f-c8289200b2ea" />
 
-
-📁 Project Structure
-<pre> ## 📁 Project Structure ``` . ├── Sleep_disorder_detection/ │ ├── predict_sleep_disorder.py # Helper script for app/model prediction │ ├── ml_model_training.py # Training pipeline (data prep + modeling) │ ├── make_dataset_realistic.py # Script to enhance dataset realism │ ├── dataset_used/ │ │ └── sleep_disorder_dataset.csv # Final processed dataset │ ├── pkl_files/ # Original location for model & encoders (not used by app) │ │ ├── xgb_sleep_model.pkl │ │ ├── scaler.pkl │ │ ├── Gender_encoder.pkl │ │ ├── BMI Category_encoder.pkl │ │ └── sleep_disorder_mapping_encoder.pkl │ ├── xgb_sleep_model.pkl # Moved here for Streamlit app to work ├── scaler.pkl ├── Gender_encoder.pkl ├── BMI Category_encoder.pkl ├── sleep_disorder_mapping_encoder.pkl │ ├── app.py # Streamlit app ├── requirements.txt # Dependencies └── README.md # Project documentation ``` </pre>
-
-
-> 📦 **Note:**  
-> The `.pkl` files were moved to the root directory so the **Streamlit app** could locate them correctly during deployment. This is a known limitation when deploying on **Streamlit Cloud**.
-
 ---
 
 ## 🔮 Future Enhancements
