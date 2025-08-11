@@ -95,29 +95,30 @@ The Streamlit web app:
 
 .
 ├── Sleep_disorder_detection/
-│   ├── predict_sleep_disorder.py       # Helper script for app/model prediction
-│   ├── ml_model_training.py            # Training pipeline (data prep + modeling)
-│   ├── make_dataset_realistic.py       # Script to enhance dataset realism
+│   ├── predict_sleep_disorder.py              # Helper script for app/model prediction
+│   ├── ml_model_training.py                   # Training pipeline (data prep + modeling)
+│   ├── make_dataset_realistic.py              # Script to enhance dataset realism
 │
-├── dataset_used/
-│   └── sleep_disorder_dataset.csv      # Final processed dataset
+│   ├── dataset_used/
+│   │   └── sleep_disorder_dataset.csv         # Final processed dataset
 │
-├── pkl_files/                          # Original location for model & encoders (not used by app)
-│   ├── xgb_sleep_model.pkl
-│   ├── scaler.pkl
-│   ├── Gender_encoder.pkl
-│   ├── BMI Category_encoder.pkl
-│   └── sleep_disorder_mapping_encoder.pkl
+│   ├── pkl_files/                             # Original location for model & encoders (not used by app)
+│   │   ├── xgb_sleep_model.pkl
+│   │   ├── scaler.pkl
+│   │   ├── Gender_encoder.pkl
+│   │   ├── BMI Category_encoder.pkl
+│   │   └── sleep_disorder_mapping_encoder.pkl
 │
-├── xgb_sleep_model.pkl                 # Moved here for Streamlit app to work
+├── xgb_sleep_model.pkl                        # Moved here for Streamlit app to work
 ├── scaler.pkl
 ├── Gender_encoder.pkl
 ├── BMI Category_encoder.pkl
 ├── sleep_disorder_mapping_encoder.pkl
 │
-├── app.py                              # Streamlit app
-├── requirements.txt                    # Dependencies
-└── README.md                           # Project documentation
+├── app.py                                     # Streamlit app
+├── requirements.txt                           # Project dependencies
+└── README.md                                  # Project documentation
+
 
 
 
