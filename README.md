@@ -91,7 +91,7 @@ The Streamlit web app:
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 .
 ├── Sleep_disorder_detection/
@@ -120,16 +120,30 @@ The Streamlit web app:
 └── README.md                           # Project documentation
 
 
-🔮 Future Enhancements
 
+> 📦 **Note:**  
+> The `.pkl` files were moved to the root directory so the **Streamlit app** could locate them correctly during deployment. This is a known limitation when deploying on **Streamlit Cloud**.
 
-Add more lifestyle features like Caffeine Intake, Blue Light Exposure, etc.
+---
 
-🙋‍♀️ Author
+## 🔮 Future Enhancements
 
-👩‍💻 Developed by Anusha
+- Add more lifestyle features like:
+  - Caffeine Intake
+  - Alcohol Consumption
+  - Blue Light Exposure
+  - Snoring Frequency
 
-📧 Contact: anushamahalinga243@gmail.com
+---
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## 🙋‍♀️ Author
+
+- 👩‍💻 Developed by **Anusha**
+- 📧 Email: [anushamahalinga243@gmail.com](mailto:anushamahalinga243@gmail.com)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
