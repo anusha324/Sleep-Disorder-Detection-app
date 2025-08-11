@@ -93,6 +93,34 @@ The Streamlit web app:
 
 ---
 
+## 📁 Project Structure
+
+### Main Directories and Files
+
+- `Sleep_disorder_detection/`
+  - `predict_sleep_disorder.py` – Helper script for making predictions
+  - `ml_model_training.py` – Model training pipeline (data preparation and training)
+  - `make_dataset_realistic.py` – Script for enhancing dataset realism
+  - `dataset_used/`
+    - `sleep_disorder_dataset.csv` – Final processed dataset
+  - `pkl_files/` – Original location for model and encoder files (not used by app)
+    - `xgb_sleep_model.pkl`
+    - `scaler.pkl`
+    - `Gender_encoder.pkl`
+    - `BMI Category_encoder.pkl`
+    - `sleep_disorder_mapping_encoder.pkl`
+
+- Root Directory Files (moved here for Streamlit compatibility)
+  - `xgb_sleep_model.pkl` – Trained XGBoost model
+  - `scaler.pkl` – Standard scaler used during training
+  - `Gender_encoder.pkl` – Label encoder for gender
+  - `BMI Category_encoder.pkl` – Label encoder for BMI categories
+  - `sleep_disorder_mapping_encoder.pkl` – Label encoder for sleep disorder labels
+
+- `app.py` – Streamlit web app script
+- `requirements.txt` – Python dependencies
+- `README.md` – Project documentation
+
 ## 🔮 Future Enhancements
 
 - Add more lifestyle features like:
