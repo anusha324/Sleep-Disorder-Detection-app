@@ -140,5 +140,6 @@ The Streamlit web app:
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+© 2025 Anusha. All rights reserved. This project is proprietary. No reuse, modification, or distribution allowed without written permission.
+
 
